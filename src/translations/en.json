@@ -1,0 +1,76 @@
+{
+  "SuccessMessages": {
+    "success": "Success!"
+  },  
+  "ErrorMessages": {
+    "noStartDate": "Start date is required!",
+    "noEndDate": "End date is required!",
+    "invEndDate": "End date must be greater than your start date",
+    "noEventName": "Event name is required!",
+    "noLocation": "Location is required!",
+    "invDigitType": "Must be only digits",
+    "invDigitLength": "Must be exactly 4 digits",
+    "noCode": "Code is required!",
+    "invCode": "Invalid code!",
+    "noPassword": "Password is required!",
+    "noEmail": "Email is required!",
+    "invEmail": "Email must be valid!",
+    "invPasswordLength": "Password length must be at least 6 characters",
+    "noUserName": "Name is required!",
+    "noUserSurname": "Surname is required!",
+    "passwordNotMatched": "Please, repeat entered password!",
+    "invPassword": "Password is incorrect!",
+    "accountExists": "Account with such email already exists!"
+  },
+  "EventData": {
+    "eventName": "Event Name",
+    "location": "Location",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "status": "Status",
+    "submittedAt": "Submitted At",
+    "validated": "validated",
+    "notValidated": "not_validated",
+    "unknown": "unknown yet"
+  },
+  "ButtonNames": {
+    "createEvent": "CREATE EVENT",
+    "deleteAll": "DELETE ALL",
+    "delete": "DELETE",
+    "submit": "SUBMIT",
+    "validate": "VALIDATE",
+    "backToCreate": "BACK TO CREATING YOUR EVENT",
+    "createIt": "CREATE IT!",
+    "signUp": "SIGN UP",
+    "signIn": "SIGN IN",
+    "logOut": "LOG OUT",
+    "deleteAccount": "DELETE ACCOUNT"
+  },
+  "Claims": {
+    "setUpEvent": "SET UP YOUR EVENT!",
+    "inputValidationCode": "Please input a validation code.",
+    "resumeCreating": "The time is over. Please resume the process of creating an event.",
+    "eventsWillBeLost": "All saved events will be lost. Are you sure?",
+    "fullEventDetailsInDashboard": "You will be able to add full event details in your organizer dashboard",
+    "noEvent": "There is no event with such id or this event is already validated!",
+    "noEventsAvailable": "No events are available for now.",
+    "canBeValidated": "Events that can be validated:",
+    "rowsPerPage":  "Rows per page:",
+    "unknownDate": "Don`t know the date yet.",
+    "enterCode": "Enter code ****",
+    "createdEvents": "Created Events",
+    "createAccount": "CREATING YOUR NEW ACCOUNT",
+    "signingIn": "SIGNING IN",
+    "haveAccount": "Already have an account?",
+    "haveNoAccount": "Don`t have an account yet?",
+    "accountWillBeDeleted": "Your account with all events will be deleted. Are you sure?"
+  },
+  "AuthData": {
+    "email": "Email",
+    "password": "Password",
+    "repeatPassword": "Repeat Password",
+    "userName": "Name",
+    "userSurname": "Surname"
+  }
+}
+ 

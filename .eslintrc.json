@@ -1,0 +1,48 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "airbnb",
+        "plugin:prettier/recommended",
+        "plugin:react-hooks/recommended"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "react-hooks"
+    ],
+    "rules": {
+            "import/no-named-as-default": "off",
+            "import/prefer-default-export": "off",
+            "import/no-unresolved": "off",
+            "no-undef": "error",
+            "no-unused-vars": "warn",
+            "react/jsx-props-no-spreading": "off",
+            "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+            "semi": ["warn", "always"],
+            "indent": ["warn", 2, { "SwitchCase": 1 }],
+            "react/jsx-indent": ["warn", 2],
+            "react/jsx-indent-props": ["warn", 2],
+            "no-multiple-empty-lines": ["warn", { "max": 1 }],
+            "max-len": ["warn", { "code": 120 }],
+            "spaced-comment": ["warn", "always", { "markers": ["/"] }],
+            "eol-last": "warn",
+            "react-hooks/rules-of-hooks": "error",
+            "react-hooks/exhaustive-deps": "warn",
+            "no-underscore-dangle": "off",
+            "no-param-reassign": ["error", { "props": true, "ignorePropertyModificationsFor": ["state"] }],
+            "prettier/prettier": [ "error", { "endOfLine": "auto" }],
+            "react/function-component-definition": [ 2, {"namedComponents": "arrow-function"}],
+            "react/prop-types": "off"
+    }
+}
